@@ -1,7 +1,7 @@
-"use strict"
+"use strict";
 //treat all js code as newer version
 //alert (3+3) we are using node js not browser
-console.log("saroj")
+console.log(3+3)
 let name="Saroj"
 let age=21
 let isloggedin=false
@@ -12,6 +12,6 @@ let state;
 // boolean => true/false
 // null => standalone value
 // undefined => 
-// symbol => unique
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object`
+// symbol => to find unique will be used in react
+console.log(typeof undefined); // output: undefined
+console.log(typeof null); //output:  object
