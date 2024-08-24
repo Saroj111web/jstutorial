@@ -1,5 +1,22 @@
-const customerId=2213121
-let customerEmail="khanalsaroj2002@gmail.com"
-let customerPassword="abs123"
-let accountCity="Bengaluru"
-console.table([customerId],[customerEmail],[customerPassword],[accountCity])
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;
+
+// accountId = 2 // not allowed
+//because it is constant
+
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
+
+console.log(accountId);
+
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
